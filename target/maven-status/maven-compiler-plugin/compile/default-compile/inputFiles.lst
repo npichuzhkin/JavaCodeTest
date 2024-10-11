@@ -1,2 +1,15 @@
-D:\JavaCodeTest\src\main\java\org\npichuzhkin\javacodetest\App.java
-D:\JavaCodeTest\src\main\java\org\npichuzhkin\javacodetest\config\Configurator.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\App.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\controllers\WalletController.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\dao\DAO.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\dao\WalletDAO.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\dto\WalletDTO.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\models\Wallet.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\services\WalletService.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\builders\ErrorTextBuilder.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\enumerates\OperationTypes.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\exceptions\IncorrectWalletReadingsException.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\exceptions\NoSuchOperationException.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\exceptions\NoSuchWalletException.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\exceptions\WalletException.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\responses\WalletErrorResponse.java
+D:\JavaCodeTest\src\main\java\com\npichuzhkin\javacodetest\utils\responses\WalletResponse.java
