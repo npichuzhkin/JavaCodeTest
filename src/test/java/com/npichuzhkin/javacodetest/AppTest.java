@@ -1,4 +1,4 @@
-package org.npichuzhkin.javacodetest;
+package com.npichuzhkin.javacodetest;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 

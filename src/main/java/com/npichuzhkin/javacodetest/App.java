@@ -1,4 +1,4 @@
-package org.npichuzhkin.javacodetest;
+package com.npichuzhkin.javacodetest;
 
 /**
  * Hello world!
