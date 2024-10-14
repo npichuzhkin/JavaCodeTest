@@ -21,4 +21,13 @@
             </column>
         </createTable>
     </changeSet>
+
+    <changeSet id="v1_0_1" author="npichuzhkin">
+
+        <preConditions onFail="MARK_RAN">
+                <tableIsEmpty tableName="wallet"/>
+        </preConditions>
+
+        <loadData tableName="wallet" file="data/wallet-data.csv"/>
+    </changeSet>
 </databaseChangeLog>

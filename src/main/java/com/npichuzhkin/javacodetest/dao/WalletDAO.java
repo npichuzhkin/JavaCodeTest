@@ -19,13 +19,9 @@ public class WalletDAO implements DAO{
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    public long getAmountById(UUID id) throws NoSuchWalletException {
-        return jdbcTemplate.query("SELECT amount FROM wallet where id=?", new Object[]{id}, new BeanPropertyRowMapper<>(Long.class)).stream().findAny().orElseThrow(() -> new NoSuchWalletException("No wallet with this ID was found"));
-    }
-
     @Override
     public Wallet findById(UUID id) throws NoSuchWalletException {
-        return jdbcTemplate.query("SELECT * FROM wallet WHERE id=?", new Object[]{id}, new BeanPropertyRowMapper<>(Wallet.class)).stream().findAny().orElseThrow(() -> new NoSuchWalletException("No wallet with this ID was found"));
+        return jdbcTemplate.query("SELECT * FROM wallet WHERE id=? FOR UPDATE", new Object[]{id}, new BeanPropertyRowMapper<>(Wallet.class)).stream().findAny().orElseThrow(() -> new NoSuchWalletException("No wallet with this ID was found"));
     }
 
     @Override

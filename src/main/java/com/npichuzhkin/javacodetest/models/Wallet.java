@@ -2,6 +2,7 @@ package com.npichuzhkin.javacodetest.models;
 
 import lombok.Data;
 
+
 import java.util.UUID;
 
 @Data

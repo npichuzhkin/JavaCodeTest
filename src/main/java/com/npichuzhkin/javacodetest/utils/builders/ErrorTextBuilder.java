@@ -12,8 +12,8 @@ public class ErrorTextBuilder {
 
         for (FieldError fieldError: errorFields) {
             errors
-                    .append("В поле ").append(fieldError.getField())
-                    .append(" ошибка - ").append(fieldError.getDefaultMessage())
+                    .append("Field ").append(fieldError.getField())
+                    .append(" contains an error - ").append(fieldError.getDefaultMessage())
                     .append("; ");
         }
         return errors.toString();

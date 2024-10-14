@@ -1,3 +1,4 @@
+com\npichuzhkin\javacodetest\utils\exceptions\InsufficientFundsException.class
 com\npichuzhkin\javacodetest\utils\enumerates\OperationTypes.class
 com\npichuzhkin\javacodetest\dao\DAO.class
 com\npichuzhkin\javacodetest\utils\exceptions\WalletException.class
@@ -6,11 +7,12 @@ com\npichuzhkin\javacodetest\utils\exceptions\IncorrectWalletReadingsException.c
 com\npichuzhkin\javacodetest\utils\exceptions\NoSuchOperationException.class
 com\npichuzhkin\javacodetest\utils\responses\WalletErrorResponse.class
 com\npichuzhkin\javacodetest\controllers\WalletController.class
+com\npichuzhkin\javacodetest\services\WalletServiceAsynch.class
 com\npichuzhkin\javacodetest\models\Wallet.class
 com\npichuzhkin\javacodetest\utils\exceptions\NoSuchWalletException.class
-com\npichuzhkin\javacodetest\App.class
 com\npichuzhkin\javacodetest\dao\WalletDAO.class
 com\npichuzhkin\javacodetest\dto\WalletDTO.class
+com\npichuzhkin\javacodetest\utils\responses\Response.class
 com\npichuzhkin\javacodetest\services\WalletService$1.class
 com\npichuzhkin\javacodetest\services\WalletService.class
 com\npichuzhkin\javacodetest\utils\responses\WalletResponse.class

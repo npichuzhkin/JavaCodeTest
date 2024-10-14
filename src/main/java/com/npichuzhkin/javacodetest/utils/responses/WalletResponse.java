@@ -3,7 +3,7 @@ package com.npichuzhkin.javacodetest.utils.responses;
 import lombok.Data;
 
 @Data
-public class WalletResponse {
+public class WalletResponse extends Response {
     private String walletId;
     private long balance;
 
